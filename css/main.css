@@ -1,0 +1,138 @@
+/* _____________________________________
+
+   01. General Styles
+   _____________________________________ */
+
+   #siteContainer {
+    margin: 0 auto;
+    width: 1500px;
+   }
+
+   .hidden {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 1500px;
+    height: 500px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 15px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.centeredImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.centeredText {
+    width: 750px;
+}
+
+.centeredText2 {
+    width: 900px;
+    height: 600px;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+}
+
+.padding {
+    padding: 2em;
+}
+
+.topPad {
+    padding-top: 2em;
+}
+
+.bottomPad {
+    padding-bottom: 2em;
+}
+
+/* _____________________________________
+
+   02. CSS Grid
+   _____________________________________ */
+
+   @supports (grid-area: auto) {
+
+    /*------------ Grid Items ------------*/
+
+    .head, .main > *, .foot {
+       display: grid;
+          grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+    }
+
+    .one-item {
+       display: grid;
+       grid-column: 2 / span 2;
+       grid-template-columns: 1fr;
+    }
+
+    .two-items {
+       display: grid;
+       grid-column: 2 / span 2;
+       grid-template-columns: repeat(2, 1fr);
+       justify-content: space-evenly;
+    }
+
+    .three-items {
+       display: grid;
+       grid-column: 2 / span 2;
+       grid-template-columns: repeat(3, 1fr);
+       justify-content: space-evenly;
+       row-gap: 2em;
+       column-gap: 2em;
+    } }
+
+    /*------------ Floats ------------*/
+
+   .f-left {
+    float: left;
+ }
+
+ .f-right {
+    float: right;
+ }
+
+ /*------------ Contact Form ------------*/
+
+.background {
+    background-color: grey;
+    height: 500px;
+}
