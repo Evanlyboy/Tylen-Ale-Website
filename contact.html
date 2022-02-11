@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tylen-Ale Contact Page</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body id="siteContainer">
+    <header>
+        <h2>Logo</h2>
+            <nav>
+                <ul>
+                    <li> Home </li>
+                    <li> About </li>
+                    <li> Beer </li>
+                    <li> Contact </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="padding">
+            <h2 class="centered title"> Contact Info </h2>
+            <p class="centeredText text"> Here at Tylen-Ale, we craft great beer so you can craft great memories with all your friends and family.
+            <br>
+            <br>
+            We are not satisfied until your craving for a delicious lager is satisfied. If for any reason you find yourself not 100% fully satisfied, or you have any questions for us, please do not hesitate to fill out contact us and we will respond as soon as possible!
+        <br>
+        <br>
+        Email: TylenAle@gmail.com
+        <br>
+        Phone: 416-847-3289
+        <br>
+        Fax: 384-384-5687
+        <br>
+        <br>
+        Address: 1680 Halsey Avenue, Toronto, ON, M3B2W6</p>
+        </section>
+
+        <section>
+            <div class="background"> <!-- This form here need styling to look like the wireframe -->
+                <h2 class="title bottomPad"> Contact Form </h2>
+                <form class="centered" action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First and Last Name">
+                    <input name="contactInfo" type="text" placeholder="Phone Number or Email" required> 
+                    <textarea name="msg" placeholder="What event would you like to set up & what date would you like to have it on?"></textarea> <br>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
