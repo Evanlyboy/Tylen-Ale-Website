@@ -1,3 +1,21 @@
+/*_____________________________________
+
+   Fonts and Such
+   _____________________________________  */
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+.button{
+    font-size: 24px;
+    background-color: grey;
+    color: white;
+    width: 100px;
+}
+
+
 /* _____________________________________
 
    01. General Styles
@@ -34,8 +52,12 @@
 }
 
 .centered {
-    display: flex;
     justify-content: center;
+}
+
+.center-items {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imgContainer {
@@ -82,6 +104,30 @@
 
 .bottomPad {
     padding-bottom: 2em;
+}
+
+.border{
+    border: 2em;
+}
+
+.background-box {
+    background-color: grey;
+}
+
+.big-logo{
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+.column-style {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 /* _____________________________________
