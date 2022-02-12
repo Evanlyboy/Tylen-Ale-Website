@@ -178,6 +178,13 @@ h4 {
     gap: 10px;
 }
 
+.beer {
+    display: grid;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    padding: 2em;
+}
 
 .centeredText {
     width: 750px;
@@ -202,6 +209,10 @@ h4 {
 
 .border{
     border: 2em;
+}
+
+.margin {
+    margin: 2em;
 }
 
 .background-box {
@@ -253,7 +264,17 @@ h4 {
        justify-content: space-evenly;
        row-gap: 2em;
        column-gap: 2em;
-    } }
+    } 
+    .four-items {
+        display: grid;
+        grid-column: 2 / span 2;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        row-gap: 2em;
+        column-gap: 2em;
+     } 
+
+}
 
     /*------------ Floats ------------*/
 
