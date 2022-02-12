@@ -89,9 +89,41 @@ h4 {
 
     /* Footer */
 
-    .contact {
+/* Contact form */
 
-    }
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form {
+
+}
+
+.contact input[type=text], input[type=email], textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    margin: 1em 0em 2em 0em;
+    resize: vertical;
+}
+
+.contact input[type=submit] {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2em;
+    margin: 1em 0em 2em 0em;
+}
 
     /* Images */
 
