@@ -29,6 +29,16 @@ h4 {
     width: 100px;
 }
 
+.floatTextRight {
+    display: flex;
+    justify-content: end;
+}
+
+.floatTextLeft {
+    display: flex;
+    justify-content: start;
+}
+
 /* _____________________________________
 
    01. General Styles
@@ -99,6 +109,32 @@ h4 {
     .big-logo{
         width: 400px;
         height: 400px;
+    }
+
+    .floatImgLeft {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: start;
+        justify-content: left;
+        margin-right: 1em;
+    }
+
+    .floatImgLeft img {
+        max-height: 200px;
+        max-width: auto;
+    }
+
+    .floatImgRight {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: end;
+        justify-content: right;
+        margin-right: 1em;
+    }
+    
+    .floatImgRight img {
+        max-height: 200px;
+        max-width: auto;
     }
 
 .center {
