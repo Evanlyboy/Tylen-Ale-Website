@@ -1,3 +1,44 @@
+/*_____________________________________
+
+   Fonts and Such
+   _____________________________________  */
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.text {
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.button{
+    font-size: 24px;
+    background-color: grey;
+    color: white;
+    width: 100px;
+}
+
+.floatTextRight {
+    display: flex;
+    justify-content: end;
+}
+
+.floatTextLeft {
+    display: flex;
+    justify-content: start;
+}
+
 /* _____________________________________
 
    01. General Styles
@@ -10,7 +51,119 @@
 
    .hidden {
     display: none;
+    }
+
+    /* Header */
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        gap: 2em;
+        padding: 2em 0 2em 0;
+        background-color: lightblue;
+    }
+
+    nav img {
+        display: inline-flex;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav li {
+        display: inline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        background-color: grey;
+        margin-left: 5em;
+        padding: 1em;
+        border-radius: 3px;
+    }
+
+    .nav a {
+        color: white;
+    }
+
+    /* Footer */
+
+/* Contact form */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
+
+.contact input[type=text], input[type=email], textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    margin: 1em 0em 2em 0em;
+    resize: vertical;
+}
+
+.contact input[type=submit] {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2em;
+    margin: 1em 0em 2em 0em;
+}
+
+    /* Images */
+
+    .hero-image{
+        margin: 3em 0em 3em 0em;
+        height: 300px;
+        background-color: grey;
+    }
+
+    .img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .big-logo{
+        width: 400px;
+        height: 400px;
+    }
+
+    .floatImgLeft {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: start;
+        justify-content: left;
+        margin-right: 1em;
+    }
+
+    .floatImgLeft img {
+        max-height: 200px;
+        max-width: auto;
+    }
+
+    .floatImgRight {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: end;
+        justify-content: right;
+        margin-right: 1em;
+    }
+    
+    .floatImgRight img {
+        max-height: 200px;
+        max-width: auto;
+    }
 
 .center {
     text-align: center;
@@ -34,8 +187,12 @@
 }
 
 .centered {
-    display: flex;
     justify-content: center;
+}
+
+.center-items {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imgContainer {
@@ -45,17 +202,16 @@
 
 .centeredImg {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10px;
 }
 
-.text {
-    
-    font-size: 30px;
-    line-height: 50px;
-    display: flex;
-    justify-content: center;
+.beer {
+    display: grid;
     margin: auto;
-    padding: 15px;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    padding: 2em;
 }
 
 .centeredText {
@@ -65,11 +221,6 @@
 .centeredText2 {
     width: 900px;
     height: 600px;
-}
-
-.img {
-    width: 500px;
-    height: 300px;
 }
 
 .padding {
@@ -82,6 +233,29 @@
 
 .bottomPad {
     padding-bottom: 2em;
+}
+
+.border{
+    border: 2em;
+}
+
+.margin {
+    margin: 2em;
+}
+
+.background-box {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+}
+
+.column-style {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 /* _____________________________________
@@ -118,7 +292,17 @@
        justify-content: space-evenly;
        row-gap: 2em;
        column-gap: 2em;
-    } }
+    } 
+    .four-items {
+        display: grid;
+        grid-column: 2 / span 2;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        row-gap: 2em;
+        column-gap: 2em;
+     } 
+
+}
 
     /*------------ Floats ------------*/
 

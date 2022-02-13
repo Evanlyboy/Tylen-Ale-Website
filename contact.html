@@ -9,17 +9,21 @@
     <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body id="siteContainer">
-    <header>
-        <h2>Logo</h2>
-            <nav>
+
+    <header> <!-- once the header is done you can copy it to the rest, I left space for it on the pages -->
+        <h3 class="hidden">Header</h3>
+            <nav class="nav">
+                <img src="#" alt="Logo">
                 <ul>
-                    <li> Home </li>
-                    <li> About </li>
-                    <li> Beer </li>
-                    <li> Contact </li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/beer.html">Beer</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </nav>
     </header>
+    <!-- Header works *chefs kiss*
+    - Evan -->
 
     <main>
         <section class="padding">
@@ -41,20 +45,44 @@
         </section>
 
         <section>
-            <div class="background"> <!-- This form here need styling to look like the wireframe -->
+            <div class="contact-form background border margin"> <!-- This form here need styling to look like the wireframe -->
                 <h2 class="title bottomPad"> Contact Form </h2>
-                <form class="centered" action="email.php" method="POST" enctype="text/plain">
-                    <input name="fullName" type="text" placeholder="First and Last Name">
-                    <input name="contactInfo" type="text" placeholder="Phone Number or Email" required> 
-                    <textarea name="msg" placeholder="What event would you like to set up & what date would you like to have it on?"></textarea> <br>
-                    <input name="submit" type="submit" value="Send">
-                </form>
+                <div class="contact">
+                    <form class="" action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="First and Last Name">
+                        <input name="contactInfo" type="text" placeholder="Phone Number or Email" required> 
+                        <textarea name="msg" placeholder="What event would you like to set up & what date would you like to have it on?"></textarea> <br>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        
+    <footer> <!--  Once one footer is done you can just copy it to the rest, I left space on the other pages-->
+        <section>
+            <h3 class="hidden">Footer</h3>
+            <nav class="nav">
+                <img src="#" alt="Logo">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index.html">About</a></li>
+                    <li><a href="/index.html">Beer</a></li>
+                    <li><a href="/index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="two-items padding nav">
+                <div class="contact">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque vero ea illum architecto. Magnam totam labore, eos earum minima voluptatibus ad dicta ratione, quos molestias quia eius? Sed, eius numquam?</h4>
+                </div>
+                <div class="socials">
+                    <a href="#"><img src="#" alt="Twitter"></a>
+                    <a href="#"><img src="#" alt="Facebook"></a>
+                    <a href="#"><img src="#" alt="Instagram"></a>
+                    <a href="#"><img src="#" alt="Snapchat"></a>
+                </div>
+            </div>
+        </section>
     </footer>
     
 </body>

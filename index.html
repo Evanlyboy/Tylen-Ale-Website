@@ -1,3 +1,10 @@
+<!-- 
+TYLEN-ALE
+Index Page
+By: Evan Hansen & Matthew Tenuta
+Tylen-Ale index page. Has some basic info about our product as well as a welcome and stuff. Pretty typical
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,34 +16,42 @@
     <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body id="siteContainer">
+    <h1 class="hidden">Index Page</h1>
+
+    <!-- finally done styling, should be all good to go
+    - Evan -->
         <header> <!-- once the header is done you can copy it to the rest, I left space for it on the pages -->
-            <div>
-                <h2>Logo</h2>
-            <nav>
-                <ul>
-                    <li> Home </li>
-                    <li> About </li>
-                    <li> Beer </li>
-                    <li> Contact </li>
-                </ul>
-            </nav>
-            </div>
+            <h3 class="hidden">Header</h3>
+                <nav class="nav">
+                    <img src="#" alt="Logo">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/beer.html">Beer</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
         </header>
 
         <main>
-            <section class="centered padding">
+            <div class="centered padding hero-image">
                 <img src="#" class="hero" alt="Image Here">
-            </section>
+            </div>
 
             <section class="padding">
                 <h2 class="centered title"> Welcome </h2>
-                <p class="centeredText text"> Hello There, and welcome to the official Tylen-Ale beer website. We here at Tylen-Ale would like to thank you for taking the time out of your day to explore our site. If you want to read about Tylen-Ale you can go to our About Us page, or if your just looking to buy a couple crisp & clean beers, our beer page has you covered. For any questions or concerns you have, feel free to fill out our contact form and a representative would love to help you out. So go on, and thanks again for choosing Tylen-Ale. </p>
+                <p class="centeredText text"> Hello there, and welcome to the official Tylen-Ale beer website. We here at Tylen-Ale would like to thank you for taking the time out of your day to explore our site. If you want to read about Tylen-Ale you can go to our About Us page, or if your just looking to buy a couple crisp & clean beers, our beer page has you covered. For any questions or concerns you have, feel free to fill out our contact form and a representative would love to help you out. So go on, and thanks again for choosing Tylen-Ale. </p>
             </section>
 
-            <section class="imgContainer centeredImg">
-                <img class="img padding" src="#" alt="Image Here">
-                <img class="img padding" src="#" alt="Image Here">
-            </section>
+            <!-- Middle of the page with two picture boxes evenly spaced out from each other -->
+            <div class="imgContainer centeredImg">
+                <div class="big-logo background-box">
+                    <img class="img padding" src="#" alt="Image Here">
+                </div>
+                <div class="big-logo background-box">
+                    <img class="img padding" src="#" alt="Image Here">
+                </div>
+            </div>
 
             <section class="padding">
                 <h2 class="centered title"> Location </h2>
@@ -47,7 +62,27 @@
 
         <footer> <!--  Once one footer is done you can just copy it to the rest, I left space on the other pages-->
             <section>
-                
+                <h3 class="hidden">Footer</h3>
+                <nav class="nav">
+                    <img src="#" alt="Logo">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html">About</a></li>
+                        <li><a href="/index.html">Beer</a></li>
+                        <li><a href="/index.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="two-items padding nav">
+                    <div class="contact">
+                        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque vero ea illum architecto. Magnam totam labore, eos earum minima voluptatibus ad dicta ratione, quos molestias quia eius? Sed, eius numquam?</h4>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><img src="#" alt="Twitter"></a>
+                        <a href="#"><img src="#" alt="Facebook"></a>
+                        <a href="#"><img src="#" alt="Instagram"></a>
+                        <a href="#"><img src="#" alt="Snapchat"></a>
+                    </div>
+                </div>
             </section>
         </footer>
 
