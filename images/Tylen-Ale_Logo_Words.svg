@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="830.4" height="260" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 830.4 260">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-6 {
+        fill: #f2f2f3;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-8 {
+        fill: #3e51a3;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-11 {
+        fill: none;
+      }
+
+      .cls-12 {
+        fill: #e6373c;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-11" d="M830.4,238.2c-272.5-75.6-545,75.6-817.4,0V80.7c272.5,75.6,545-75.6,817.4,0V238.2Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="49.1" y1="6" x2="49.1" y2="183.3" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd109"/>
+      <stop offset=".1" stop-color="#feca0a"/>
+      <stop offset=".3" stop-color="#fec70b"/>
+      <stop offset=".6" stop-color="#fac143"/>
+      <stop offset=".8" stop-color="#ee693c"/>
+      <stop offset="1" stop-color="#e01d3c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="153.1" x2="153.1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="250.2" x2="250.2" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="330.5" x2="330.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="419.1" x2="419.1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="604.3" x2="604.3" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="701.3" x2="701.3" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="781.6" x2="781.6" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1"/>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Tylen-Ale_Logo" data-name="Tylen-Ale Logo">
+        <g>
+          <g>
+            <polygon class="cls-6" points="32.1 186.3 32.1 34.3 3 34.3 3 3 95.1 3 95.1 34.3 66 34.3 66 186.3 32.1 186.3"/>
+            <path class="cls-8" d="M92.1,6V31.3h-29.1V183.3h-27.9V31.3H6V6H92.1m6-6H0V37.3H29.1V189.3h39.9V37.3h29.1V0h0Z"/>
+          </g>
+          <g>
+            <polygon class="cls-6" points="136.1 186.3 136.1 108.3 101.3 3 137.3 3 154.3 61.3 171.3 3 204.8 3 170 108.3 170 186.3 136.1 186.3"/>
+            <path class="cls-8" d="M200.7,6l-33.7,101.8v75.5h-27.9V107.8L105.5,6h29.6l19,65.1h.5L173.6,6h27.1m8.3-6h-39.9l-1.3,4.3-13.5,46.2-13.5-46.2-1.3-4.3h-42.4l2.6,7.9,33.4,100.9v80.5h39.9V108.8L206.4,7.9l2.6-7.9h0Z"/>
+          </g>
+          <g>
+            <polygon class="cls-6" points="210.4 186.3 210.4 3 244.2 3 244.2 155 290.1 155 290.1 186.3 210.4 186.3"/>
+            <path class="cls-8" d="M241.2,6V158h45.8v25.3h-73.7V6h27.9m6-6h-39.9V189.3h85.7v-37.3h-45.8V0h0Z"/>
+          </g>
+          <g>
+            <polygon class="cls-6" points="289.5 186.3 289.5 3 371.5 3 371.5 34.3 323.3 34.3 323.3 75.2 361.6 75.2 361.6 106.5 323.3 106.5 323.3 155 371.5 155 371.5 186.3 289.5 186.3"/>
+            <path class="cls-8" d="M368.5,6V31.3h-48.1v46.9h38.2v25.3h-38.2v54.5h48.1v25.3h-76V6h76m6-6h-88V189.3h88v-37.3h-48.1v-42.5h38.2v-37.3h-38.2V37.3h48.1V0h0Z"/>
+          </g>
+          <g>
+            <polygon class="cls-6" points="431.9 186.3 403.2 75.5 403.2 186.3 372.4 186.3 372.4 3 412.7 3 435 90.2 435 3 465.8 3 465.8 186.3 431.9 186.3"/>
+            <path class="cls-8" d="M462.8,6V183.3h-28.6l-33.4-129.4h-.5V183.3h-24.8V6h35l27.1,106.1h.5V6h24.8m6-6h-36.8V66.4l-15.8-61.9-1.2-4.5h-45.6V189.3h36.8V99.1l22.1,85.7,1.2,4.5h39.3V0h0Z"/>
+          </g>
+          <g>
+            <path class="cls-6" d="M621.6,186.3l-5-34.7h-26.5l-5.1,34.7h-32L582.9,3h42.8l29.9,183.3h-34Zm-9.2-64.8l-9.2-64.8-9,64.8h18.2Z"/>
+            <path class="cls-8" d="M623.2,6l28.9,177.3h-27.9l-5.1-35.2v.5h-31.7l-5.1,34.7h-25.8L585.4,6h37.7m-32.4,118.5h25.1l-12.4-87.6h-.5l-12.2,87.6M628.3,0h-47.9l-.8,5-28.9,177.3-1.1,7h38.1l.7-5.1,4.3-29.6h21.3l4.3,29.6,.7,5.1h40.1l-1.1-7L629.1,5l-.8-5h0Zm-30.6,118.5l5.6-40.2,5.7,40.2h-11.3Z"/>
+          </g>
+          <g>
+            <polygon class="cls-6" points="661.5 186.3 661.5 3 695.3 3 695.3 155 741.2 155 741.2 186.3 661.5 186.3"/>
+            <path class="cls-8" d="M692.3,6V158h45.8v25.3h-73.7V6h27.9m6-6h-39.9V189.3h85.7v-37.3h-45.8V0h0Z"/>
+          </g>
+          <g>
+            <polygon class="cls-6" points="740.6 186.3 740.6 3 822.6 3 822.6 34.3 774.5 34.3 774.5 75.2 812.7 75.2 812.7 106.5 774.5 106.5 774.5 155 822.6 155 822.6 186.3 740.6 186.3"/>
+            <path class="cls-8" d="M819.6,6V31.3h-48.1v46.9h38.2v25.3h-38.2v54.5h48.1v25.3h-76V6h76m6-6h-88V189.3h88v-37.3h-48.1v-42.5h38.2v-37.3h-38.2V37.3h48.1V0h0Z"/>
+          </g>
+        </g>
+        <g>
+          <path class="cls-12" d="M532.6,82h-.3l-25.3,25.3h25.7c7,0,12.7-5.7,12.7-12.7s-5.7-12.7-12.7-12.7Z"/>
+          <path class="cls-12" d="M496.9,106.9l24.9-24.9h-21.6c-7,0-12.7,5.7-12.7,12.7s4,10.8,9.4,12.2Z"/>
+        </g>
+        <g class="cls-9">
+          <g>
+            <path class="cls-4" d="M35.1,31.3H6V6H92.1V31.3h-29.1V183.3h-27.9V31.3Z"/>
+            <path class="cls-7" d="M139.1,107.8L105.5,6h29.6l19,65.1h.5L173.6,6h27.1l-33.7,101.8v75.5h-27.9V107.8Z"/>
+            <path class="cls-13" d="M213.4,6h27.9V158h45.8v25.3h-73.7V6Z"/>
+            <path class="cls-10" d="M292.5,6h76V31.3h-48.1v46.9h38.2v25.3h-38.2v54.5h48.1v25.3h-76V6Z"/>
+            <path class="cls-1" d="M375.4,6h35l27.1,106.1h.5V6h24.8V183.3h-28.6l-33.4-129.4h-.5V183.3h-24.8V6Z"/>
+            <path class="cls-2" d="M585.4,6h37.7l28.9,177.3h-27.9l-5.1-35.2v.5h-31.7l-5.1,34.7h-25.8L585.4,6Zm30.4,118.5l-12.4-87.6h-.5l-12.2,87.6h25.1Z"/>
+            <path class="cls-5" d="M664.5,6h27.9V158h45.8v25.3h-73.7V6Z"/>
+            <path class="cls-3" d="M743.6,6h76V31.3h-48.1v46.9h38.2v25.3h-38.2v54.5h48.1v25.3h-76V6Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
