@@ -1,7 +1,3 @@
-/*_____________________________________
-
-   Fonts and Such
-   _____________________________________  */
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,6 +9,41 @@ h4 {
     font-size: 18px;
 }
 
+.colour {
+    background-color: #263371;
+}
+
+.button{
+    font-size: 24px;
+    background-color: #263371;
+    color: white;
+    width: 120px;
+    height: 50px;
+}
+
+.tylenAleWords {
+    height: 120px;
+}
+
+a {
+    transition: all .3s linear 0s;
+}
+
+.nav a:hover {
+    color: #E11D3E;
+}
+
+/*------------ Text ------------*/
+
+.centeredText {
+    width: 1000px;
+}
+
+.centeredText2 {
+    width: 900px;
+    height: 600px;
+}
+
 .text {
     font-size: 30px;
     line-height: 50px;
@@ -20,13 +51,6 @@ h4 {
     justify-content: center;
     margin: auto;
     padding: 15px;
-}
-
-.button{
-    font-size: 24px;
-    background-color: grey;
-    color: white;
-    width: 100px;
 }
 
 .floatTextRight {
@@ -53,6 +77,39 @@ h4 {
     display: none;
     }
 
+    .spacing {
+        line-height: 1.5;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 3em;
+        padding-bottom: 15px;
+    }
+    
+    .white {
+        color: white;
+    }
+    
+    .centered {
+        justify-content: center;
+    }
+    
+    .center-items {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .align {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* Header */
     .nav {
         display: flex;
@@ -61,7 +118,7 @@ h4 {
         flex-wrap: nowrap;
         gap: 2em;
         padding: 2em 0 2em 0;
-        background-color: lightblue;
+        background-color: #263371;
     }
 
     nav img {
@@ -75,10 +132,9 @@ h4 {
 
     .nav li {
         display: inline;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-        background-color: grey;
-        margin-left: 5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        font-size: 38px;
+        margin-left: 2em;
         padding: 1em;
         border-radius: 3px;
     }
@@ -88,6 +144,11 @@ h4 {
     }
 
     /* Footer */
+
+    .footerImg {
+        height: 150px;
+        width: 150px;
+    }
 
 /* Contact form */
 
@@ -123,10 +184,10 @@ h4 {
 
     /* Images */
 
-    .hero-image{
+    .hero-image {
         margin: 3em 0em 3em 0em;
-        height: 300px;
-        background-color: grey;
+        width: 1500px;
+        margin-top: 0;
     }
 
     .img {
@@ -134,9 +195,45 @@ h4 {
         height: 300px;
     }
 
+    .img2 {
+        width: 1500px;;
+        height: 800px;
+    }
+
+    .img3 {
+        width: 374px;
+        height: 278px;
+    }
+
+    .img4 {
+        width: 374px;
+        height: 278px;
+    }
+
+    .img5 {
+        width: 564px;
+        height: 405px;
+    }
+
     .big-logo{
-        width: 400px;
-        height: 400px;
+        width: 372px;
+        height: 520px;
+    }
+
+    .social {
+        width: 120px;
+        height: 120px;
+    }
+
+    .imgContainer {
+        margin: 0 auto;
+        width: 1000px;
+    }
+    
+    .centeredImg {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
     }
 
     .floatImgLeft {
@@ -148,7 +245,7 @@ h4 {
     }
 
     .floatImgLeft img {
-        max-height: 200px;
+        max-height: 100%;
         max-width: auto;
     }
 
@@ -161,49 +258,45 @@ h4 {
     }
     
     .floatImgRight img {
-        max-height: 200px;
+        max-height: 100%;
         max-width: auto;
     }
-
-.center {
-    text-align: center;
-}
-
-.align {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .hero {
     width: 1500px;
     height: 500px;
 }
 
-.title {
-    text-align: center;
-    font-size: 3em;
-    padding-bottom: 15px;
+/*------------ Buttons ------------*/
+
+.btn {
+    border: 2px solid black;
+    background-color: #263371;
+    color: black;
+    padding: 14px 28px;
+    font-size: 36px;
+    cursor: pointer;
+    transition: all .3s linear 0s;
 }
 
-.centered {
-    justify-content: center;
+.yes {
+    border-color: #FFD107;
+    border-width: 4px;
+    color: white;
 }
 
-.center-items {
-    display: flex;
-    justify-content: space-around;
+.yes:hover {
+    background-color: #E11D3E; 
 }
 
-.imgContainer {
-    margin: 0 auto;
-    width: 1000px;
+.no {
+    border-color: #FFD107;
+    border-width: 4px;
+    color: white;
 }
 
-.centeredImg {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
+.no:hover {
+    background-color: #E11D3E;
 }
 
 .beer {
@@ -214,17 +307,18 @@ h4 {
     padding: 2em;
 }
 
-.centeredText {
-    width: 750px;
-}
-
-.centeredText2 {
-    width: 900px;
-    height: 600px;
-}
+/*------------ Padding ------------*/
 
 .padding {
     padding: 2em;
+}
+
+.padding2 {
+    padding: 4em;
+}
+
+.padding3 {
+    padding: 1.5em;
 }
 
 .topPad {
@@ -287,19 +381,19 @@ h4 {
 
     .three-items {
        display: grid;
-       grid-column: 2 / span 2;
+       grid-column: 1 / span 3;
        grid-template-columns: repeat(3, 1fr);
        justify-content: space-evenly;
-       row-gap: 2em;
-       column-gap: 2em;
+       row-gap: 1em;
+       column-gap: 1em;
     } 
     .four-items {
         display: grid;
-        grid-column: 2 / span 2;
-        grid-template-columns: repeat(2, 1fr);
+        grid-column: 2 / span 4;
+        grid-template-columns: repeat(4, 1fr);
         justify-content: space-evenly;
-        row-gap: 2em;
-        column-gap: 2em;
+        row-gap: 1em;
+        column-gap: 1em;
      } 
 
 }
