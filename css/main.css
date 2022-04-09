@@ -1,14 +1,3 @@
-
-h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 32px;
-}
-
-h4 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-}
-
 .colour {
     background-color: #263371;
 }
@@ -31,6 +20,20 @@ a {
 
 /*------------ Text ------------*/
 
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.header-text {
+    font-family: 'Bebas Neue', cursive;
+}
+
 .centeredText {
     width: 1000px;
 }
@@ -41,9 +44,10 @@ a {
 }
 
 .text {
-    font-size: 30px;
+    font-size: 18px;
     line-height: 50px;
     display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     margin: auto;
     padding: 15px;
@@ -70,9 +74,19 @@ a {
    01. General Styles
    _____________________________________ */
 
+    body {
+        background-image: linear-gradient(rgba(255, 209, 9, 0.6), rgba(224, 29, 60, 1));
+        /* background-image: url('../images/background.png'); */
+    }
+
    #siteContainer {
     margin: 0 auto;
     width: 1500px;
+    background-color: white;
+   }
+
+   main {
+       background-color: rgba(255, 255, 255, 0.9);
    }
 
    .hidden {
@@ -139,7 +153,6 @@ a {
 
     .nav li {
         display: inline;
-        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
         font-size: 38px;
         padding: 1em;
         border-radius: 3px;
