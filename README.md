@@ -15,10 +15,15 @@ Visit the GitHub pages link OR clone into a directory of your chosing. Launch "L
 
 ## Made with
 Photoshop
+
 Illustrator
+
 VS Code - CSS / HTML / JS
+
 MDN Mozilla
+
 Cinema4D
+
 Made with love <3
 
 ### Thank you and we both hope you enjoy our site :)
