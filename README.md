@@ -1,6 +1,7 @@
 <img src="images/Tylen-Ale_Logo_Title_png.png" width="300">
 
 <h1> Tylen-Ale - a brand mashup website of Tylenol and Foster's Beer </h1>
+
 ## The Cure For Everyday Life
 ## Created By: Evan Hansen & Matthew Tenuta
 
