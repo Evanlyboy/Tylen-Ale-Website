@@ -25,6 +25,6 @@ MDN Mozilla
 
 Cinema4D
 
-Made with love <3
+Love <3
 
 ### Thank you and we both hope you enjoy our site :)
