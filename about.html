@@ -15,7 +15,7 @@ Tylen-Ale about page. Shares our story in detail.
     <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
-<body id="siteContainer">
+<body id="siteContainer" class="bodyBackground">
 
 <!-- >>>>>>>HTML VALIDATES<<<<<<
     02/11/22
@@ -23,9 +23,9 @@ Tylen-Ale about page. Shares our story in detail.
 
     <header> <!-- once the header is done you can copy it to the rest, I left space for it on the pages -->
         <h3 class="hidden">Header</h3>
-            <nav class="nav centered">
-                <img class="tylenAleWords" src="images/Tylen-Ale_Logo_Words.svg" alt="Logo">
-                <ul>
+            <nav class="nav nav-padding centered">
+                <a href="index.html"><img class="tylenAleWords" src="images/Tylen-Ale_Logo_Title_png.png" alt="Logo"></a>
+                <ul class="header-text">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="beer.html">Beer</a></li>
@@ -36,7 +36,7 @@ Tylen-Ale about page. Shares our story in detail.
         <!-- Header works *chefs kiss*
         - Evan -->
 
-    <main>
+    <main class="mainBackground">
 
         <!-- The text floats to the right, the image floats to the left. Should work perfectly when it's in place
         - Evan -->
@@ -64,26 +64,28 @@ Tylen-Ale about page. Shares our story in detail.
                 <img class="padding img5" src="images/cheers_guys.jpg" alt="Image Here"></p>
         </section>
 
+<!-- I'm gonna make a "accept our cookies" thingy at the bottom for increased JS functionality -->
+
         <footer>
             <section>
                 <h3 class="hidden">Footer</h3>
-                <nav class="nav">
+                <nav class="nav nav-padding">
                     <img class="footerImg" src="images/Tylen-Ale_Logo.svg" alt="Logo">
-                    <ul>
+                    <ul class="footer-ul header-text">
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="beer.html">Beer</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="three-items padding3 nav">
+                <div class="three-items nav">
                     <div class="padding4 white">
-                        <h2 class="spacing">Address: 1680 Halsey Avenue,<br>
+                        <h2 class="spacing footer-text">Address: 1680 Halsey Avenue,<br>
                         Toronto, ON, M3B2W6<br>
                         Phone: 416-847-3289<br>
-                        Email: Tylenalebeer@outlook.ca</h4>
+                        Email: Tylenalebeer@outlook.ca</h2>
                     </div>
-                    <div class="four-items">
+                    <div class="sm-layout">
                         <a href="#"><img class="social padding" src="images/black_twitter.png" alt="Twitter"></a>
                         <a href="#"><img class="social padding" src="images/black_facebook.svg" alt="Facebook"></a>
                         <a href="#"><img class="social padding" src="images/black_instagram.png" alt="Instagram"></a>
