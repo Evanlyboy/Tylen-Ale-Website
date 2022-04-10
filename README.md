@@ -1,4 +1,4 @@
-<img src="images/Tylen-Ale_Logo_Words.svg" width="300">
+<img src="images/Tylen-Ale_Logo_Title_png.png" width="300">
 
 # Tylen-Ale
 ## The Cure For Everyday Life
