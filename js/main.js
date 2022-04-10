@@ -68,7 +68,7 @@
         // the current info is the documentation we want to use on the page. Set up this way to flush later
         let currentInfo = document.createTextNode(beerData[0]);
 
-        // target the specific beerinfo within the nameBox
+        // target the specific beer within the nameBox
         beerInfo = lightbox.getElementsByClassName("beerInfo")[0];
         beerImg = lightbox.getElementsByClassName("img")[0];
 
@@ -77,8 +77,6 @@
         beerImg.src = `images/${beerData[1]}`
 
         // make everything visible
-        // employeeBox.appendChild(lightbox);
-
         lightbox.classList.add("show-lightbox");
     }
 
